@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.0",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "SOFAni",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "GoogleARCore",
@@ -22,6 +32,10 @@
 		},
 		{
 			"Name": "GoogleARCoreServices",
+			"Enabled": true
+		},
+		{
+			"Name": "JsonBlueprintUtilities",
 			"Enabled": true
 		}
 	],
